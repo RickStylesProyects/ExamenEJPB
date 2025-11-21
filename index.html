@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <title>RSolutions - Tecnología y Servicios Informáticos</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="RSolutions - Servicios de tecnología, mantenimiento, ensamblaje e instalación de computadoras">
+     <meta name="keywords" content="tecnología, mantenimiento computadoras, ensamblaje, instalación, asesoría informática">
+     <meta name="author" content="RSolutions">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/aos.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/tooplate-gymso-style.css">
+     
+     <!-- ESTILOS AZULES PERSONALIZADOS -->
+     <style>
+        .custom-btn {
+            background-color: #3498db;
+            border-color: #3498db;
+            color: white;
+        }
+        .custom-btn:hover {
+            background-color: #2980b9;
+            border-color: #2980b9;
+            color: white;
+        }
+        .custom-btn.bordered {
+            color: white;
+            border-color: white;
+            background-color: transparent;
+        }
+        .custom-btn.bordered:hover {
+            background-color: white;
+            border-color: white;
+            color: #3498db;
+        }
+        .bg-color {
+            background-color: #3498db !important;
+        }
+        .feature {
+            background: linear-gradient(135deg, #1a2a3a 0%, #2c3e50 100%);
+        }
+        .class-info {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .class-thumb {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #eaeaea;
+        }
+        .class-thumb:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        .class-thumb img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .service-description {
+            flex-grow: 1;
+            margin-bottom: 15px;
+            color: #555;
+            line-height: 1.6;
+        }
+        .site-footer {
+            background-color: #2c3e50;
+        }
+        .navbar {
+            background-color: rgba(44, 62, 80, 0.9);
+        }
+        .service-specialist {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+        }
+        .service-title {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 8px;
+        }
+        .personal-info-section {
+            background-color: #f8f9fa;
+            padding: 80px 0;
+        }
+        .personal-info-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        .personal-info-item {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        .personal-info-item:last-child {
+            border-bottom: none;
+        }
+        .personal-info-label {
+            font-weight: bold;
+            color: #3498db;
+            margin-bottom: 5px;
+        }
+        .personal-info-content {
+            color: #555;
+        }
+     </style>
+</head>
+<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
+
+    <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Erick Portillo - Examen Interciclo</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link smoothScroll">Pestaña 1</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item">
+                        <a href="#services2" class="nav-link smoothScroll">Pestaña 2</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Pestaña 1 -->
+    <section class="class section" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-12 text-center mb-5">
+                    <h2 data-aos="fade-up" data-aos-delay="200">Preguntas</h2>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="400">
+                    <div class="class-thumb">
+                        <img src="images/class/1.jpg" class="img-fluid" alt="Mantenimiento">
+                        <div class="class-info">
+                            <h3 class="service-title">¿Qué es Cloud Computing?</h3>
+
+                            <p class="service-description">Cloud computing o computación en la nube es el acceso bajo demanda a recursos informáticos (físicos o virtual servers, almacenamiento de datos, capacidades de red, herramientas de desarrollo de aplicaciones, software, plataformas analíticas impulsadas por IA y más) a través de Internet con los precios de pago por uso.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-5 mt-lg-0 mt-md-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="500">
+                    <div class="class-thumb">
+                        <img src="images/class/2.jpg" class="img-fluid" alt="Ensamblaje">
+                        <div class="class-info">
+                            <h3 class="service-title">¿Qué es SaaS, PaaS e IaaS?</h3>
+                            <p class="service-description">La Infraestructura como servicio (IaaS) se trata de un servicio de pago según el consumo, donde un tercero le presta los servicios de infraestructura. La Plataforma como servicio (PaaS) es el proveedor aloja el hardware y el software en su propia infraestructura y ofrece la plataforma al usuario como una solución integrada. El software como servicio (SaaS) Ofrece una aplicación integral que gestiona el proveedor, a través de un explorador web.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-5 mt-lg-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="600">
+                    <div class="class-thumb">
+                        <img src="images/class/3.jpg" class="img-fluid" alt="Instalación">
+                        <div class="class-info">
+                            <h3 class="service-title">¿Qué es Virtualización?</h3>
+                            <p class="service-description">La virtualización es un proceso que permite una utilización más eficaz del hardware físico y es la base del cloud computing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-5 mt-lg-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="600">
+                    <div class="class-thumb">
+                        <img src="images/class/4.jpg" class="img-fluid" alt="Instalación">
+                        <div class="class-info">
+                            <h3 class="service-title">¿Qué es Docker?</h3>
+                            <p class="service-description">Docker es un proyecto de código abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de virtualización de aplicaciones en múltiples sistemas operativos. </p>
+                        </div>
+                    </div>
+                </div>
+    <!-- Pestaña 2 -->
+    <section class="class section" id="services2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-12 text-center mb-5">
+                    <h2 data-aos="fade-up" data-aos-delay="200">Anydesk y Teamviewer</h2>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="400">
+                    <div class="class-thumb">
+                        <img src="images/class/5.jpg" class="img-fluid" alt="Mantenimiento">
+                        <div class="class-info">
+                            <h3 class="service-title">Anydesk</h3>
+                            <p class="service-description">AnyDesk es una aplicación de escritorio remoto rápida y segura que permite a los usuarios acceder y controlar dispositivos desde cualquier lugar.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-5 mt-lg-0 mt-md-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="500">
+                    <div class="class-thumb">
+                        <img src="images/class/6.jpg" class="img-fluid" alt="Ensamblaje">
+                        <div class="class-info">
+                            <h3 class="service-title">TeamViewer</h3>
+                            <p class="service-description">Desarrollado por TeamViewer GmbH, este software es utilizado por millones de personas en todo el mundo para acceder y controlar remotamente computadoras, dispositivos móviles, redes y servidores.</p>
+                        </div>
+                    </div>
+                </div>
+
+    <!-- Modal para solicitar servicio -->
+    <div class="modal fade" id="serviceRequestForm" tabindex="-1" role="dialog" aria-labelledby="serviceRequestFormLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="serviceRequestFormLabel">Solicitar Servicio</h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form class="membership-form webform" role="form">
+                <input type="text" class="form-control" name="cf-name" placeholder="Nombre completo" required>
+                <input type="email" class="form-control" name="cf-email" placeholder="Email" required>
+                <input type="tel" class="form-control" name="cf-phone" placeholder="Teléfono" required>
+                <select class="form-control" name="cf-service">
+                    <option value="">Selecciona un servicio</option>
+                    <option value="mantenimiento">Mantenimiento</option>
+                    <option value="ensamblaje">Ensamblaje</option>
+                    <option value="instalacion">Instalación</option>
+                    <option value="asesoria">Asesoría</option>
+                    <option value="accesorios">Accesorios</option>
+                </select>
+                <textarea class="form-control" rows="3" name="cf-message" placeholder="Descripción del problema o requerimiento"></textarea>
+                <button type="submit" class="form-control" id="submit-button" name="submit">Solicitar Servicio</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
